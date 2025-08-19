@@ -96,7 +96,7 @@
 }
 
 .hero-section {
-  background-image: url('../images/سلام-لوقو-باك-تارنس.png'), linear-gradient(270deg, #004964, #00496400), url('../images/hero-backs.png');
+  background-image: url('../images/سلام-لوقو-باك-تارنس.avif'), linear-gradient(270deg, #004964, #00496400), url('../images/hero-backs_1.avif');
   background-position: 100% 0, 0 0, 100%;
   background-repeat: no-repeat, repeat, no-repeat;
   background-size: cover, auto, cover;
@@ -120,10 +120,6 @@
   color: #fff;
   font-size: 40px;
   font-weight: 200;
-}
-
-.text-span {
-  font-weight: 300;
 }
 
 .text-span-2 {
@@ -172,14 +168,6 @@
   align-items: flex-start;
   margin-bottom: 40px;
   display: flex;
-}
-
-.div-block-3.vertical {
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
-  flex-flow: row;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .paragraph-2 {
@@ -236,7 +224,7 @@
   display: flex;
 }
 
-.heading-2, .heading-3 {
+.heading-3 {
   font-size: 16px;
 }
 
@@ -273,7 +261,7 @@
 }
 
 .div-block-7.dark {
-  background-image: url('../images/سلام-لوقو-باك-تارنس.png'), linear-gradient(225deg, #004964, #009aae), url('../images/hero-backs.png');
+  background-image: url('../images/سلام-لوقو-باك-تارنس.avif'), linear-gradient(225deg, #004964, #009aae), url('../images/hero-backs_1.avif');
   background-position: 50%, 0 0, 50%;
   background-repeat: no-repeat, repeat, no-repeat;
   background-size: cover, auto, cover;
@@ -341,7 +329,7 @@
 }
 
 .div-block-10 {
-  background-image: url('../images/اسلام.png');
+  background-image: url('../images/اسلام.avif');
   background-position: 50%;
   background-size: auto;
   border: 2px solid #00ae97;
@@ -351,19 +339,24 @@
 }
 
 .div-block-10.team2 {
-  background-image: url('../images/Frame-1868-2.png');
+  background-image: url('../images/Frame-1868-2.avif');
 }
 
 .div-block-10.team3 {
-  background-image: url('../images/Frame-1868.png');
+  background-image: url('../images/Frame-1868.avif');
 }
 
 .div-block-10.team4 {
-  background-image: url('../images/Frame-1868-1.png');
+  background-image: url('../images/Frame-1868-1.avif');
 }
 
 .div-block-10.team5 {
-  background-image: url('../images/Frame-1868-3.png');
+  background-image: url('../images/Frame-1868-3.avif');
+}
+
+.div-block-10.team6 {
+  background-image: url('../images/Group-35571.avif');
+  background-size: cover;
 }
 
 .div-block-11 {
@@ -401,12 +394,6 @@
   display: flex;
 }
 
-.div-block-14 {
-  justify-content: space-between;
-  align-items: stretch;
-  display: flex;
-}
-
 .div-block-15 {
   justify-content: space-between;
   align-items: flex-end;
@@ -429,7 +416,7 @@
   display: flex;
 }
 
-.heading-4, .heading-5 {
+.heading-5 {
   font-size: 16px;
 }
 
@@ -468,22 +455,6 @@
 
 .div-block-19.right {
   inset: -16% -16% auto auto;
-}
-
-.grid-6 {
-  grid-template-rows: auto;
-}
-
-.text-field {
-  background-color: #ffffff52;
-  border: 1px solid #f0f0f0;
-  border-radius: 8px;
-  height: 48px;
-  margin-bottom: 24px;
-}
-
-.field-label {
-  font-weight: 400;
 }
 
 .div-block-20 {
